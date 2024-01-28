@@ -158,4 +158,42 @@ using namespace std;
 //         cout << "You are at a healthy weight"; 
 //     }
 // }
+ 
+// Switch case
 
+// int main () {
+//     int day = 3;
+//     switch (day) {
+//         case 1:
+//             cout << "Monday";
+//             break;
+//         case 2:
+//             cout << "Tuesday";
+//             break;
+//         case 3:
+//             cout << "Wednesday";
+//             break;
+//         case 4:
+//             cout << "Thursday";
+//             break;
+//         case 5: 
+//             cout << "Friday";
+//             break;
+//         case 6:
+//             cout << "Saturday";
+//             break;
+//         case 7:
+//             cout << "Sunday";
+//             break;
+//     }
+// }
+
+// While loops
+
+int main() {
+    int i = 0;
+    while (i < 69) {
+        cout << i << "\n";
+        i++;
+    }
+}
