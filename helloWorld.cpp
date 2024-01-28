@@ -58,3 +58,16 @@ using namespace std;
 //     cin >> x;
 //     cout << "Your number is: " << x;
 // }
+
+int main() {
+    int x, y;
+    int sum;
+    string question1 = "Type a number: ";
+    string question2 = "Type another number: ";
+    cout << question1;
+    cin >> x;
+    cout << question2;
+    cin >> y;
+    sum = x + y;
+    cout << "The Sum of the two numbers picked is: " << sum;
+}
