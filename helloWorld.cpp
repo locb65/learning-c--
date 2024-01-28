@@ -44,3 +44,17 @@ using namespace std;
 //     cout << x + y + z;
 // }
 
+// int main() {
+//     const int myNum = 15;
+//     cout << myNum;
+
+// }
+
+// ask for input
+
+// int main() {
+//     int x;
+//     cout << "Type a number: ";
+//     cin >> x;
+//     cout << "Your number is: " << x;
+// }
