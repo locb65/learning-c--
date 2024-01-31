@@ -51,5 +51,16 @@ int checkwin() {
     }
 }   
 
+// function to display board with player choices in game state
+void board() {
+system("cls");
+cout << "   | " << square[1] << " | " << square[2] << " | " << square[3] << endl;
+cout << "---+---+---" << endl;
+cout << "   | " << square[4] << " | " << square[5] << " | " << square[6] << endl;
+cout << "---+---+---" << endl;
+cout << "   | " << square[7] << " | " << square[8] << " | " << square[9] << endl;
+}
 
-int main() {}
+int main() {
+    board();
+}
